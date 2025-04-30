@@ -1,7 +1,7 @@
 import Paragraph from "@/components/paragraph";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
-import Background from "@/public/assets/bg_resized_logo.png";
+const Background = "/assets/bg_resized_logo.png";
 
 export default function LandingPage() {
   const paragraphContexts = [
